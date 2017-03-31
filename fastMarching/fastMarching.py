@@ -10,6 +10,7 @@ cv2.circle( map, (50, 50), 10, 255, -1)
 start = [1,1]
 goal = [90,90]
 
+
 ### for some reason the plotted path is flipped x and y, no clue as the time plot is perfect, probably in findPath
 
 fmm = FMM( map, 1.0, 1.0, start, goal )
